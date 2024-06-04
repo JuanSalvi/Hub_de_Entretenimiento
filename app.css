@@ -1,0 +1,111 @@
+
+body{
+    background-color: #1c1d1d;
+}
+
+h2, h3{
+    color: #f0fffd;
+}
+
+h4{
+    border: #15ffe0 3px solid;
+    color: #f0fffd;
+}
+
+
+/* .contenedor_style {
+     background-color: #0bc9af; 
+} */
+/* .navcolor {
+    background-color: #435b9e;
+}
+.cont{
+    background-color: #dad88b;
+}
+
+.pelicula{
+    background-color: #ad8bda;
+}
+.minifila{
+    background-color: #8bdaad;
+}
+
+
+.place_holder{
+    background-color: hsl(0, 27%, 68%);
+}
+
+
+.carrucel{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.nuevos{
+    background-color: #ad8bda;
+}
+
+.imagen-new{
+    height: auto;
+    width: auto;
+
+
+}
+
+.explorar{
+    background-color: #0bc9af;
+    border: solid 1px  #292929;
+} */
+
+
+/* ------ Nav  ------- */
+
+.navCont{ /*Contenedor base del Navegador*/
+    color:#f3f3f3;
+    text-align: center;
+    font-size: 25px;
+}
+
+.nav-link:hover{ /* Al pasar por los iconos cambia color*/
+    color: #15ffe0;
+}
+
+
+.active{ /* Marca la pagina precente (Home) */
+    color: #15ffe0;
+
+}
+
+.active:hover{ /* Al pasar por los iconos cambia color*/
+    color: #ffffff;
+}
+
+
+/* ------ Animacion de Imagenes ------- */
+
+.img-fluid{ /* Imagenes de las peliculas */
+    transition: scale 0.5s;
+}
+
+.img-fluid:hover{ /* Al pasar por las imagenes  */
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* ------ Footer ------- */
+footer{
+    color: #38bbbb;
+}
+
+footer a{
+    text-decoration: none;
+    color: #38bbbb;
+    font-weight: bold;
+    text-align: center; 
+}
+
+footer a:hover{
+    color: #f4fffe;
+}
+

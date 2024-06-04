@@ -1,0 +1,56 @@
+
+body{
+    background-color: #1c1d1d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h1, h2, h3{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+p{
+    color: #fafafa;
+    text-align: justify;
+    font-weight: bolder;
+}
+a{
+    color: #00ffea;
+}
+
+/* color de maketado*/
+.formulario{
+    background: rgba(243, 243, 243, 0.438);
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+/* Boton de iniciar Sesión*/
+
+.btn{
+    font-weight: bolder;
+}
+
+.btn:hover{
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+
+ /* Alerta de error */
+.alert{
+    position: absolute;
+    background-color: #00ffea;
+    border: #00ffea;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1060;
+}
+
+.alert span{
+    color: #383838;
+    font-weight: bolder;
+}

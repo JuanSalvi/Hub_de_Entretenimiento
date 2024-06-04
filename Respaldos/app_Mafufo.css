@@ -1,0 +1,94 @@
+.contenedor_style {
+    background-color: #0bc9af;
+}
+.navcolor {
+    background-color: #435b9e;
+}
+.cont{
+    background-color: #dad88b;
+}
+
+.pelicula{
+    background-color: #ad8bda;
+}
+.minifila{
+    background-color: #8bdaad;
+}
+
+
+.place_holder{
+    background-color: hsl(0, 27%, 68%);
+}
+
+
+.carrucel{
+    width: 10%;
+    height: auto;
+    align-self: center;
+}
+
+.nuevos{
+    background-color: #ad8bda;
+}
+
+.imagen-new{
+    height: auto;
+    width: auto;
+
+
+}
+
+.explorar{
+    background-color: #0bc9af;
+    border: solid 1px  #292929;
+}
+
+
+/* ------ Nav Fixed/ Fijo ------- */
+
+.navCont { /*Contenedor base del Navegador*/
+    background-color: #343a40;
+    color: #fff;
+    height: 100vh;
+    width: 60px;
+    position: fixed;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* Nav Link/ Enlace del Navegador*/
+.nav-link {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Nav Link Hover/ Enlace del Navegador al pasar el mouse*/
+.nav-link:hover {
+    color: #0cffeb;
+}
+
+/* Divicion de Iconos*/
+.divition_nav {
+    border-top: 2px solid #00ffc8;
+    width: 100%;
+}
+
+
+.settings, .profile {
+    margin-top: 20px;
+}
+
+.cont {
+    margin-left: 60px; /* same width as nav */
+    background-color: #f8f9fa;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,45 @@
+.contenedor_style {
+    background-color: #0bc9af;
+}
+.navcolor {
+    background-color: #435b9e;
+}
+.cont{
+    background-color: #dad88b;
+}
+
+.pelicula{
+    background-color: #ad8bda;
+}
+.minifila{
+    background-color: #8bdaad;
+}
+
+
+.place_holder{
+    background-color: hsl(0, 27%, 68%);
+}
+
+
+.carrucel{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.nuevos{
+    background-color: #ad8bda;
+}
+
+.imagen-new{
+    height: auto;
+    width: auto;
+
+
+}
+
+.explorar{
+    background-color: #0bc9af;
+    border: solid 1px  #292929;
+}
+
