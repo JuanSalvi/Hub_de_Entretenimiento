@@ -17,3 +17,4 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
       setTimeout(function () {mensajeError.style.display = "none";}, 3000); // 3000 milisegundos = 3 segundos
     }
   });
+
